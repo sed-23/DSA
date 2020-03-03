@@ -7,3 +7,11 @@ def bubbleSort(arr):
     return arr;
 
 bubbleSort([5, 1, -19, 3, 0, -1])
+
+'''
+Time complexity: O(n^2) 
+Best case time complexity : O(n) - already sorted array
+Worst case time complexity : O(n^2) - completely unsorted array.
+
+Space complexity : O(1) - temp variable.
+'''
